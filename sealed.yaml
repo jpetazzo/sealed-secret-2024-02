@@ -1,0 +1,15 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: passphrase
+  namespace: default
+spec:
+  encryptedData:
+    phrase: AgB7UPavAHvaG7yARO32chGCd2O6MPJ+hw8tboBc1RLiwrMkqhkepADUR+fSdju8Bz4QVmksDV81svYWpIAjd5bpnewSwXNr5E97xHbpaG4gTXZ2WUIKmvhdZ9MjGhtxA687G6UWRQHOklLXC87UBO8G+YGGsitn6fd95AtUJSh83HfT3cypc0o1PQJ64j7wpxWXaQVhATyIENcCzI7iX4JqdQCPXObVey3MHIGQ85ZJL38Lzh5O2G6vlnYMwc9TJxe1ncDiduA+K1D8MkRJJV5pkMCKFELG9TldqbGL4p+cFy9UfC6aevleYweMdKn2abrSrZbUf70aWnbcagavCCCbEqxDa0pLIskyjBYpp4aEvMyuoXqndCG1/WVBzhW0PYrMCzS5QpvpPYXJrjDNmUE70J5Cl2VvSHMHEa3qe1KeGAVDBCwHXeaTeZ7BULB1desLv7/zqV6DwSYtnSeEkru7w6Y43/TVIHQru1is0mD5TuSNcZufmDWcoLtA6Ayz3VM2fjGst8zeOyVIDy556QKd90HOoD2aBTCvCnabZKrsZM3HF08Kf+s6HpB7yCCYtNOzkLzJ2lprobHH9T7MWdacHCXF7hLD+JI7EBnlB/pC/Ze5sd4yegc1fsDSf1AWYPdVHMq9K+BuSAqxUtBVt45GsYSZ08KoQ3gY4U1fbkImAFC3I4tSQG6tpObI3X0gtlG95hYFqyHdN61ycgCCzA9Ma8xvsQUJSkm+nfWw
+  template:
+    metadata:
+      creationTimestamp: null
+      name: passphrase
+      namespace: default
